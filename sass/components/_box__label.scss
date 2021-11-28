@@ -1,0 +1,18 @@
+.box__label{
+    width: 370px;
+    height: 70px;
+    position: absolute;
+   bottom: 0;
+    right: 0;
+  display: flex;
+  font-weight: bold;
+   font-size: 14px;
+   line-height: 1.13;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--white-color);
+   background-color: var(--backraund-name);
+   align-items: center;
+   justify-content: center;
+  }
+  .box__name{margin: 0;}

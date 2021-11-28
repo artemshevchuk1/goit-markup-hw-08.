@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    padding: 0px;
+  }
+
+  .activity {
+    padding: 0px;
+  }
+
+  @media screen and (max-width: 1199px){
+    .activity{
+      display: none;
+  }
+  }

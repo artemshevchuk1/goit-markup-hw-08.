@@ -1,0 +1,31 @@
+.card{
+  padding-top: 30px;
+  padding-bottom: 24px;
+  text-align: center;
+  }
+
+  @media screen and (min-width: 1200px){
+    .card{
+      padding-bottom: 30px;
+  }
+  }
+  
+
+  
+.card__name{
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color);
+    margin: 0px;
+  }
+
+  .card__profession{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--title-text-color);
+    margin: 10px 0px 0px 0px;
+  }

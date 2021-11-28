@@ -1,0 +1,33 @@
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    --container-items: 1;
+  }
+  
+  .project .list {
+    margin-right: 0px;
+  }
+  
+  .project__sublist{
+    background: var(--white-color);
+    margin-bottom: 30px;
+    flex-basis: calc(480px / 1 - 30px);
+  }
+  
+  @media screen and (min-width: 768px){
+    .project__sublist{
+      flex-basis: calc(768px / 2 - 30px);
+  }
+  }
+
+  @media screen and (min-width: 1200px){
+    .project__sublist{
+      flex-basis: calc(1200px / 3 - 30px);
+  }
+  }
+
+  
+  
+  
+  

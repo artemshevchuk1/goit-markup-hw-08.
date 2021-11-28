@@ -1,0 +1,94 @@
+.footer-mailing__form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 1200px){
+    .footer-mailing__form{
+      display: flex;
+      flex-direction: row;
+  }
+  }
+  
+  
+  
+  .footer-mailing__messeage{
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: var(--white-color);
+  border: 1px solid var(--footer-border-messeage);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px) var(--modal-button-shadow);
+  border-radius: 4px;
+  background-color: var(--dark-background);
+  resize: none;
+  padding-top: 15px;
+  padding-left: 16px;
+  margin-right: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: .03em;
+  
+  }
+
+  @media screen and (min-width: 480px){
+    .footer-mailing__messeage{
+      width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  }
+
+  @media screen and (min-width: 1200px){
+    .footer-mailing__messeage{
+      width: 358px;
+      margin: 0;
+  }
+  }
+ 
+ 
+ 
+  
+  .footer-mailing__button{
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px var(--modal-button-shadow);
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.81;
+  letter-spacing: 0.06em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--white-color);
+  padding: 0;
+  &:hover,
+  &:focus{background-color: var(--hero-button-background);}
+  }
+  
+  @media screen and (min-width: 1200px){
+    .footer-mailing__button{
+     margin-top: 0;
+      margin-left: 12px;
+  }
+  }
+
+
+
+
+  .footer-mailing__icon{
+    fill: currentColor;
+    margin-left: 10px;
+  }
+ 
+  

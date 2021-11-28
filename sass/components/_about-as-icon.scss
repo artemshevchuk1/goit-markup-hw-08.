@@ -1,0 +1,15 @@
+.about-as__icon{background-color:var(--light-background);
+    background-size: cover;
+    
+  }
+
+.about-as__background{
+  width: 100%;
+    background-color: var(--light-background);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 120px;
+  }

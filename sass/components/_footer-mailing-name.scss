@@ -1,0 +1,18 @@
+.footer-mailing__name{
+  display: block;
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  
+@media screen and (min-width: 1200px){
+  .footer-mailing__name{
+    text-align: left;
+}
+}

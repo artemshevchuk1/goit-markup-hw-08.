@@ -1,0 +1,16 @@
+.footer-address {
+    
+    align-items: baseline;
+  }
+
+  @media screen and (min-width: 768px){
+    .footer-address{
+        position: relative;;
+    }
+}
+
+@media screen and (min-width: 1200px){
+  .footer-address{
+      display: flex;
+  }
+}

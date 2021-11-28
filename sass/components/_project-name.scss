@@ -1,0 +1,23 @@
+.project__name {
+    padding: 20px 24px;
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+  }
+  
+  .portfolio__title {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--primary-text-color);
+    margin-top: auto;
+    margin-bottom: 4px;
+    padding-top: 0px;
+  }
+  
+  .portfolio__text {
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--title-text-color);
+    margin: 0px;
+  }

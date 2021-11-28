@@ -1,0 +1,23 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: var(--white-color);
+  border-bottom: 1px solid #ececec;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header {
+      padding: 0px;
+      height: 80px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .header {
+      padding-top: var(--header-top-margin);
+      padding-bottom: var(--header-bottom-margin);
+    }
+  }

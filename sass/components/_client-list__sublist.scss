@@ -1,0 +1,31 @@
+.client-list__sublist{
+    height: 92px;
+    &{
+        flex-basis: calc(480px / 1 - 30px);
+        height: 92px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .client-list__sublist{
+      flex-basis: calc(480px / 2 - 30px);
+  }
+  }
+
+  @media screen and (min-width: 768px){
+    .client-list__sublist{
+      flex-basis: calc(768px / 3 - 30px);
+  }
+  }
+
+  @media screen and (min-width: 1200px){
+    .client-list__sublist{
+      flex-basis: calc(1200px / 6 - 30px);
+  }
+  }
+
+
+.client-list__icon{
+ fill: var(--icon-color);
+ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

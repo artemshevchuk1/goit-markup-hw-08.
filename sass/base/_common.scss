@@ -1,0 +1,26 @@
+a{display: block;}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+
+
+
+ul {
+  list-style: none;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+    height: auto;
+    width: 100%;
+}

@@ -1,0 +1,11 @@
+.box__sublist{position: relative;
+  z-index: -1;
+  &:not(:last-child) {
+    margin-right: 30px; 
+  }
+;}
+
+
+
+  
+  

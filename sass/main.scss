@@ -1,0 +1,58 @@
+//UTILS
+@import './utils/variables';
+
+//BASE
+@import './base/common';
+
+//COMPONENTS
+@import './components/container';
+@import './components/section';
+@import './components/main-nav';
+@import './components/header-nav';
+@import './components/header-nav__logo';
+@import './components/main-menu';
+@import './components/menu-contacts';
+@import './components/hero-title';
+@import './components/hero-button';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/about-as-sublist';
+@import './components/about-as-icon';
+@import './components/about-as__title';
+@import './components/about-as__text';
+@import './components/activity__name';
+@import './components/box__sublist';
+@import './components/box__label';
+@import './components/team__name';
+@import './components/employees';
+@import './components/employees__sublist';
+@import './components/card';
+@import './components/social-links';
+@import './components/social-links__item';
+@import './components/social-links__link';
+@import './components/social-links__icon';
+@import './components/client-nav__name';
+@import './components/client-list';
+@import './components/client-list__sublist';
+@import './components/client-list__link';
+@import './components/footer-address';
+@import './components/footer-contacts';
+@import './components/footer-contacts__label';
+@import './components/footer-contacts__address';
+@import './components/footer-links';
+@import './components/footer-list__item';
+@import './components/footer-mailing';
+@import './components/footer-mailing-name';
+@import './components/footer-mailing__form';
+@import './components/nav';
+@import './components/project';
+@import './components/project__link';
+@import './components/project-img';
+@import './components/project-name';
+//LAYOUT
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about-as';
+@import './layout/activity';
+@import './layout/team';
+@import './layout/footer';
